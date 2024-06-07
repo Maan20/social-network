@@ -1,0 +1,15 @@
+MALE = 1
+FEMALE = 2
+OTHER = 3
+GENDER  = [(MALE,"Male"),(FEMALE,"Female"),(OTHER, "Other")]
+
+
+ACTIVE_STATE = 1
+DELETED_STATE = 2
+STATUS_ID = [(ACTIVE_STATE, "Active"), (DELETED_STATE, "Deleted")]
+
+
+ACCEPTED = 1
+REJECTED = 2
+PENDING = 3
+REQUEST_STATUS = [(PENDING, "Pending"), (ACCEPTED, "Accepted"),(REJECTED,"Rejected")]
